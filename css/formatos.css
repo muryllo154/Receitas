@@ -2,6 +2,8 @@
   --background-color: sandybrown;
   --container-color: black;
   --emphasize-color: white;
+  --btn-color: white;
+  --primary-color: Maroon;
 }
 
 body {
@@ -52,12 +54,12 @@ nav {
     color: var(--emphasize-color) !important;
 }
 
-.btn-kid {
-  background-color: var(--container-color) !important;
+.btn {
+  background-color: var(--btn-color) !important;
   border: 0px solid var(--primary-color);
 }
 
-.btn-kid:hover {
+.btn:hover {
   background-color: var(--emphasize-color);
   color: black;
 }
