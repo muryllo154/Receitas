@@ -1,0 +1,63 @@
+:root {
+  --background-color: sandybrown;
+  --container-color: black;
+  --emphasize-color: white;
+}
+
+body {
+    background-color: var(--background-color) !important;
+    overflow-y: auto;
+    padding: 0px;
+    margin: 0px;
+    
+}
+
+nav {
+  background-color: var(--container-color);
+  height: 60px !important;
+}
+
+
+.rodape {
+    position: fixed;
+    font-weight: bold;
+    width: 100%;
+    background-color: var(--container-color);
+    color: white; 
+    height: 25px; 
+    text-align: center; 
+    margin: 0;
+    bottom: 0;
+  }
+
+  .bloco {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 20vh;
+  }
+
+
+  .bloco-texto {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 50px;
+  }
+  
+  #active {
+    color: var(--emphasize-color) !important;
+}
+
+.btn-kid {
+  background-color: var(--container-color) !important;
+  border: 0px solid var(--primary-color);
+}
+
+.btn-kid:hover {
+  background-color: var(--emphasize-color);
+  color: black;
+}
